@@ -15,7 +15,6 @@ public class ContactPerson {
         this.email = email;
         this.zipCode = zipCode;
         this.phoneNumber = phoneNumber;
-
     }
 
     public String getFirstName() {
