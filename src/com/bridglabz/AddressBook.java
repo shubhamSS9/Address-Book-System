@@ -69,7 +69,6 @@ public class AddressBook {
             System.out.println("Oops...Contact not found");
         }
     }
-
     public void deleteContact() {
         boolean isContactFound = false;
         System.out.println("enter name to delete contact");
@@ -91,6 +90,7 @@ public class AddressBook {
             System.out.println("Opps... contact not found");
         }
     }
+
 
     void display() {
         for (ContactPerson person : addressBook1) {
